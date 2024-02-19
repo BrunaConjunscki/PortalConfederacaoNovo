@@ -5,184 +5,262 @@ import FooterNav from "../shared/FooterNav.astro";
 import Paragraph from "../shared/Paragraph.astro";
 const footerNav1 = [
     {
-        itemText:"Marketing",
-        itemLink:"#"
+        itemText: "Marketing",
+        itemLink: "#",
     },
     {
-        itemText:"Analylitics",
-        itemLink:"#"
+        itemText: "Analylitics",
+        itemLink: "#",
     },
     {
-        itemText:"Commerce",
-        itemLink:"#"
+        itemText: "Commerce",
+        itemLink: "#",
     },
     {
-        itemText:"Insights",
-        itemLink:"#"
-    }
-]
+        itemText: "Insights",
+        itemLink: "#",
+    },
+];
 
 const footerSupport = [
     {
-        itemText:"Pricing",
-        itemLink:"#"
+        itemText: "Pricing",
+        itemLink: "#",
     },
     {
-        itemText:"Guides",
-        itemLink:"#"
+        itemText: "Guides",
+        itemLink: "#",
     },
     {
-        itemText:"FAQ",
-        itemLink:"#"
+        itemText: "FAQ",
+        itemLink: "#",
     },
     {
-        itemText:"Contact",
-        itemLink:"#"
-    }
-]
+        itemText: "Contact",
+        itemLink: "#",
+    },
+];
 
 const footerCompany = [
     {
-        itemText:"About",
-        itemLink:"/about"
+        itemText: "About",
+        itemLink: "/about",
     },
     {
-        itemText:"Blog",
-        itemLink:"#"
+        itemText: "Blog",
+        itemLink: "#",
     },
     {
-        itemText:"Jobs",
-        itemLink:"#"
+        itemText: "Jobs",
+        itemLink: "#",
     },
     {
-        itemText:"Parteners",
-        itemLink:"#"
+        itemText: "Parteners",
+        itemLink: "#",
     },
     {
-        itemText:"Jobs",
-        itemLink:"#"
-    }
-]
+        itemText: "Jobs",
+        itemLink: "#",
+    },
+];
 const footerLegal = [
     {
-        itemText:"Claim",
-        itemLink:"/#"
+        itemText: "Claim",
+        itemLink: "/#",
     },
     {
-        itemText:"Privacy",
-        itemLink:"#"
+        itemText: "Privacy",
+        itemLink: "#",
     },
     {
-        itemText:"Terms",
-        itemLink:"#"
-    }
-]
+        itemText: "Terms",
+        itemLink: "#",
+    },
+];
 ---
-<div class="mt-16"></div>
-<footer class="relative  bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 pt-28 rounded-t-3xl">
-    <div class="absolute right-0 top-0 h-full w-full flex justify-end">
-        <div class="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl">
-            <span
-              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
-            ></span>
-            <span
-              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
-            ></span>
-            <span
-              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
-            ></span>
-          </div>
-      </div>
 
-      <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
-        <div class="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl">
+<div class="mt-16"></div>
+<footer
+    class="relative bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 pt-28 rounded-t-3xl"
+>
+    <div class="absolute right-0 top-0 h-full w-full flex justify-end">
+        <div
+            class="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl"
+        >
             <span
-              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+                class="absolute w-16 h-16 -top-1 -right-1 bg-primay-500 rounded-md rotate-45"
             ></span>
             <span
-              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+                class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
             ></span>
             <span
-              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+                class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
             ></span>
-          </div>
-      </div>
+        </div>
+    </div>
+
+    <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
+        <div
+            class="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl"
+        >
+            <span
+                class="absolute w-16 h-16 -top-1 -right-1 bg-primary-500 rounded-md rotate-45"
+            ></span>
+            <span
+                class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            ></span>
+            <span
+                class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+            ></span>
+        </div>
+    </div>
     <Container className="pb-8 relative overflow-hidden">
-        
-        <span class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 blur-2xl opacity-20 w-24 h-16 sm:w-48 sm:h-36 rounded-full rotate-12 skew-x-6 bg-primary"></span>
-        <div class="grid grid-cols-2 lg:grid-cols-3 lg:items-stretch gap-8 relative">
+        <span
+            class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 blur-2xl opacity-20 w-24 h-16 sm:w-48 sm:h-36 rounded-full rotate-12 skew-x-6 bg-primary"
+        ></span>
+        <div
+            class="grid grid-cols-2 lg:grid-cols-3 lg:items-stretch gap-8 relative"
+        >
             <div>
                 <Paragraph className={"mt-6"}>
                     Matriz: Curitiba, Rua Alfredo Bufren, 155
                 </Paragraph>
                 <Paragraph className={"mt-6"}>
-                Filial: Pato Branco, Rua Lídio Oltramari, 1628
+                    Filial: Pato Branco, Rua Lídio Oltramari, 1628
                 </Paragraph>
                 <Paragraph className={"mt-6"}>
                     CNPJ: 46.099.320/0001-41
                 </Paragraph><Paragraph className={"mt-6"}>
                     CEP: 80020-240
                 </Paragraph>
-                </div>
+            </div>
             <div class="col-span-2 lg:col-span-1 h-auto flex flex-col">
                 <div style="display:flex; align-items:center;" class="h-full">
-                    <a href="#" class="relative flex items-center gap-3 dark:hidden">
-                        <img src="/logos/LogoCompleta2.png" alt="" srcset="">
+                    <a
+                        href="#"
+                        class="relative flex items-center gap-3 dark:hidden"
+                    >
+                        <img src="/logos/LogoCompleta2.png" alt="" srcset="" />
                     </a>
                 </div>
                 <div style="display:flex; align-items:center;" class="h-full">
-                    <a href="#" class="relative flex items-center gap-3 dark:flex hidden">
-                        <img src="/logos/LogoCompleta2Branca.png" alt="" srcset="">
+                    <a
+                        href="#"
+                        class="relative flex items-center gap-3 dark:flex hidden"
+                    >
+                        <img
+                            src="/logos/LogoCompleta2Branca.png"
+                            alt=""
+                            srcset=""
+                        />
                     </a>
                 </div>
-                </div>
+            </div>
 
-                <!-- social links -->
-                <div style="display:flex; justify-content:right;" class="min-h-max flex items-center gap-4 text-heading-3">
-                    <a href="https://www.linkedin.com/company/saltsystems/mycompany/" target="_blank" class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffc436" class="w-15 h-15" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                        </svg>
-                        <span class="sr-only">linkedin</span>
-                    </a>
-                    <a href="https://www.linkedin.com/company/saltsystems/mycompany/" target="_blank" class="transition hover:text-heading-1 hover:scale-105 dark:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#083597" class="w-15 h-15" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                        </svg>
-                        <span class="sr-only">linkedin</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=5511944998202&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20portal%20CEACC%2C%20quero%20saber%20mais." target="_blank" class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffc436" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
-                        <span class="sr-only">whatsapp</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=5511944998202&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20portal%20CEACC%2C%20quero%20saber%20mais." target="_blank" class="transition hover:text-heading-1 hover:scale-105 dark:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#083597" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
-                        <span class="sr-only">whatsapp</span>
-                    </a>
-                    <!-- <a href="mailto:comercial@saltsystems.com.br" class="transition hover:text-heading-1 hover:scale-105 dark:hidden">
+            <!-- social links -->
+            <div
+                style="display:flex; justify-content:right;"
+                class="min-h-max flex items-center gap-4 text-heading-3"
+            >
+                <a
+                    href="https://www.linkedin.com/company/saltsystems/mycompany/"
+                    target="_blank"
+                    class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="#ffc436"
+                        class="w-15 h-15"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                        ></path>
+                    </svg>
+                    <span class="sr-only">linkedin</span>
+                </a>
+                <a
+                    href="https://www.linkedin.com/company/saltsystems/mycompany/"
+                    target="_blank"
+                    class="transition hover:text-heading-1 hover:scale-105 dark:hidden"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="#083597"
+                        class="w-15 h-15"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                        ></path>
+                    </svg>
+                    <span class="sr-only">linkedin</span>
+                </a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5511944998202&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20portal%20CEACC%2C%20quero%20saber%20mais."
+                    target="_blank"
+                    class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="#ffc436"
+                        viewBox="0 0 448 512"
+                        ><path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                        ></path></svg
+                    >
+                    <span class="sr-only">whatsapp</span>
+                </a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5511944998202&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20portal%20CEACC%2C%20quero%20saber%20mais."
+                    target="_blank"
+                    class="transition hover:text-heading-1 hover:scale-105 dark:hidden"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="#083597"
+                        viewBox="0 0 448 512"
+                        ><path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                        ></path></svg
+                    >
+                    <span class="sr-only">whatsapp</span>
+                </a>
+                <!-- <a href="mailto:comercial@saltsystems.com.br" class="transition hover:text-heading-1 hover:scale-105 dark:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" height="35" width="35" viewBox="0 0 512 512"><path fill="#083597" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                         <span class="sr-only">email</span>
                     </a> -->
-                    <!-- <a href="mailto:comercial@saltsystems.com.br" class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden">
+                <!-- <a href="mailto:comercial@saltsystems.com.br" class="transition hover:text-heading-1 hover:scale-105 dark:flex hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" height="35" width="35" viewBox="0 0 512 512"><path fill="#ffc436" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                         <span class="sr-only">email</span>
                     </a> -->
-                </div>
             </div>
         </div>
     </Container>
-    
-    <div class=" bg-gradient-to-tl from-box-bg py-2 relative">
-        <Container>
-            <div style="display:flex; justify-content:center;" class="flex justify-between items-center gap-6 md:text-lg text-heading-3">
-                <div>
-                    &copy; Salt Systems. Todos os direitos reservados <span id="year"></span>
-                </div>
-            </div>
-        </Container>
-    </div>
 </footer>
 
+<div class="bg-gradient-to-tl from-box-bg py-2 relative">
+    <Container>
+        <div
+            style="display:flex; justify-content:center;"
+            class="flex justify-between items-center gap-6 md:text-lg text-heading-3"
+        >
+            <div>
+                &copy; Salt Systems. Todos os direitos reservados <span
+                    id="year"></span>
+            </div>
+        </div>
+    </Container>
+</div>
+
 <script>
-    document.getElementById('year').innerText = new Date().getFullYear();
+    document.getElementById("year").innerText = new Date().getFullYear();
 </script>
