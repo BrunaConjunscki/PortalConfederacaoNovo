@@ -2,11 +2,12 @@
 export interface Props{
     href:string,
     text:string,
+    openInNewTab?: boolean,
 }
-const {href, text} = Astro.props
+const {href, text, openInNewTab} = Astro.props
 ---
 <li>
-    <a href={href} class="duration-300 font-bold ease-linear hover:text-primary py-3">
+    <a href={href} class="duration-300 font-bold ease-linear hover:text-primary py-3" target={openInNewTab ? "_blank" : "_self"}>
     {text}
     </a>
 </li>
