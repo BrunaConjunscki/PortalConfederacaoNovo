@@ -1,3 +1,7 @@
+---
+import Title from "../shared/Title.astro";
+---
+
 <style>
     @media only screen and (max-width: 600px) {
         .pdf-container {
@@ -11,7 +15,13 @@
         }
     }
 </style>
-<section class="pdf-container" style="padding-top: 100px; display:flex; justify-content: center;">
-    <iframe src="https://drive.google.com/file/d/1JZrtBKZktpNqvnOdVV5rv0zdVsEk2UxS/preview" width="880" height="720" allow="autoplay"></iframe>
+
+<div class="text-center max-w-3xl mx-auto space-y-4 pt-36">
+<Title>
+    Calendário
+</Title>
+</div>
+<section class="pdf-container" style="display:flex; justify-content: center;">
+    <iframe src="https://drive.google.com/file/d/1JZrtBKZktpNqvnOdVV5rv0zdVsEk2UxS/preview" width="880" height="720" allow="autoplay" style="margin-top: 30px; margin-bottom: 30px;"></iframe>
 
 </section>
