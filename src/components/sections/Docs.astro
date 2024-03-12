@@ -8,14 +8,14 @@ import Title from "../shared/Title.astro";
 <section id="features">
     <Container className="flex flex-col midmd:flex-row gap-12 lg:gap-12">
         
-        <div class="flex-1 flex md:w-7/12 lg:w-1/2 flex-col">
+        <div class="flex-1 items-center flex md:w-7/12 lg:w-1/2 flex-col">
             <Title>
                 Documentação
             </Title>
-            <Paragraph>Cláudia Schlink é uma despachante especializada na área de produtos controlados, oferecendo uma ampla gama de serviços para atender às necessidades dos clientes. Atua principalmente em:
+            <Paragraph className="w-3/4">Cláudia Schlink é uma despachante especializada na área de produtos controlados, oferecendo uma ampla gama de serviços para atender às necessidades dos clientes. Atua principalmente em:
                 </Paragraph>
-            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
-                <li>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 mt-8 space-y-4 text-heading-3 font-medium">
+                <li style="padding-top:18px;">
                     <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Regularização e Renovação de CR
                     
                 </li>
@@ -34,18 +34,6 @@ import Title from "../shared/Title.astro";
                     <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Inventários
                 </li>
             </ul>
-        </div>
-
-        <div class="space-y-12 relative pt-4 lg:pt-36">
-            <div class="flex justify-center flex-wrap gap-2 ">
-                <div style="display: flex; align-items: center;" class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex flex-col items-center">
-                    <img src="/images/EsposaSilvio.png" width="200" height="200" alt="silvio" class="h-52 duration-500 grayscale group-hover:!grayscale-0 group-hover:scale-125 rounded-md">
-                    <div class="mt-6 italic">
-                        <Paragraph>Claudia Schlink</Paragraph>
-                    </div>
-                </div>
-
-            </div>
         </div>
             
     </Container>
