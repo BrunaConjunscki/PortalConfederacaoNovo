@@ -6,48 +6,51 @@ import Title from "../shared/Title.astro";
 ---
 
 <section id="features">
-    <Container className="flex flex-col midmd:flex-row gap-12 lg:gap-12">
+    <Container className="flex flex-col midmd:flex-row gap-12 lg:gap-12 ">
         
-        <div class="flex-1 flex md:w-7/12 lg:w-1/2 flex-col">
-            <Title>
-                Documentação
-            </Title>
-            <Paragraph>Cláudia Schlink é uma despachante especializada na área de produtos controlados, oferecendo uma ampla gama de serviços para atender às necessidades dos clientes. Atua principalmente em:
-                </Paragraph>
-            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
-                <li>
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Regularização e Renovação de CR
-                    
-                </li>
-                <li>
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Emissão de Guias de Tráfego
-                    
-                </li>
-                <li>
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Transferências e Compra de Armas
-                    
-                </li>
-                <li>
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Orientação e Assessoria Documental
-                </li>
-                <li>
-                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> Inventários
-                </li>
-            </ul>
-        </div>
-
-        <div class="space-y-12 relative pt-4 lg:pt-36">
+        <div class="space-y-12 relative pt-4 lg:pt-24 px-5 ">
             <div class="flex justify-center flex-wrap gap-2 ">
-                <div style="display: flex; align-items: center;" class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex flex-col items-center">
-                    <img src="/images/EsposaSilvio.png" width="200" height="200" alt="silvio" class="h-52 duration-500 grayscale group-hover:!grayscale-0 group-hover:scale-125 rounded-md">
+                <div class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex flex-col items-center">
+                    <img src="/images/EsposaSilvio.png" width="200" height="200" alt="Claudia" class="h-52 duration-500 grayscale group-hover:!grayscale-0 group-hover:scale-125 rounded-md">
                     <div class="mt-6 italic">
                         <Paragraph>Claudia Schlink</Paragraph>
                     </div>
                 </div>
-
             </div>
         </div>
-            
+
+        <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col sm:px-8 md:px-14 lg:px-10">
+            <Title>
+                Documentação
+            </Title>
+                <Paragraph>Cláudia Schlink é uma despachante especializada e altamente experiente na área de produtos controlados, dedicada a fornecer soluções abrangentes e personalizadas para atender às demandas específicas de cada cliente. Com uma reputação estabelecida de excelência e profissionalismo, ela se destaca na prestação de uma ampla gama de serviços especializados. Principalmente em:
+                </Paragraph>
+            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> 
+                    Regularização e Renovação de CR
+                    
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> 
+                    Emissão de Guias de Tráfego
+                    
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> 
+                    Transferências e Compra de Armas
+                    
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span>
+                    Orientação e Assessoria Documental
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center" style="color: #FFC436">&checkmark;</span> 
+                    Inventários
+                </li>
+            </ul>
+        </div>  
+
     </Container>
-    
 </section>
