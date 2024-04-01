@@ -16,7 +16,11 @@ module.exports = {
 			},
 			screens:{
 				midmd:"880px"
+			},
+			spacing: {
+				'128': '32rem',
 			}
+			
 		},
 	},
 	plugins: [],
